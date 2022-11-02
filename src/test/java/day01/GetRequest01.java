@@ -1,3 +1,5 @@
+package day01;
+
 import io.restassured.response.Response;
 import org.junit.Assert;
 import org.junit.Test;
@@ -40,5 +42,17 @@ public class GetRequest01 {
 
 
         //assertthat soft assert mu? hard assert mu? ==> hard assert dur
+
+
+        //First Step:Set the Url
+        //Second Step:Set The Expected Data
+        //Third Step:Send The Request and Get The Response
+        //Fourt Step:Do Assertion
+
+
+
+
+
+
     }
 }
