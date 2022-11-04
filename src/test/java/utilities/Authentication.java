@@ -4,8 +4,8 @@ import io.restassured.http.*;
 import io.restassured.path.json.*;
 import io.restassured.response.*;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
+import java.util.*;
 
 import static io.restassured.RestAssured.given;
 

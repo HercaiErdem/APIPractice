@@ -6,8 +6,8 @@ import org.junit.Assert;
 import org.junit.Test;
 import utilities.Authentication;
 
-import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
 
 public class GetRequest06 extends Authentication {
 
