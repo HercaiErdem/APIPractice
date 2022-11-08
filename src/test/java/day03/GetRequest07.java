@@ -26,7 +26,7 @@ public class GetRequest07 extends GMIBankBaseURL {
     @Test
     public void test07() {
 
-        // Set the Url
+        // 1. Set the Url
         spec01.pathParams("first", "tp-customers", "second", 110472);
 
         // 2. Set The Expected Data ( put, post, patch)
