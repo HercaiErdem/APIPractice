@@ -1,7 +1,7 @@
- /*
+
     API DERSİNDE NELER ÖĞRENECEKSİNİZ?
 
-            * POSTMAN
+             POSTMAN
 
 * Rest Assured: REST API'lerini test etmek ve doğrulamak için kullanılan
     Open Source (Açık Kaynak) bir Java kütüphanesidir.
@@ -56,6 +56,6 @@
    assertThat() Hard assertion'dır.
 
    // !!! token i swagger (API dokumanindan) aliyoruz, bu dokuman olmazsa elimiz kolumuz bagli
-    // token bize o siteye girmek icin otorite veriyor, authorization. Yoksa elini kolunu sallayan giren
+   // token bize o siteye girmek icin otorite veriyor, authorization. Yoksa elini kolunu sallayan giren
 
-*/
+
