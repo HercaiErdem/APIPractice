@@ -52,22 +52,22 @@
     // webservice, API
 
     //soup, rest farki sorulur
-    /*
+
     soup daha yavas, rest daha hizli calisir
     soup daha guvenlidir
     soup prodokolunu ogrenmek rest e gore ogrenmek daha zor
     soup sadece .....
-     */
-    /*
-    Postman, backend API lerin kullandigi bir tool dur
-    */
 
-    /*
+
+    Postman, backend API lerin kullandigi bir tool dur
+
+
+
     Swagger Dokumani ya da API Dokumani
 
     Q: API test inizi nasil yaparsiniz?
     A: S.. ya da AP do. gore yaparim
-     */
+
 
 
     // Sw.. api do , endpoints leri developer lar olusturur
@@ -90,16 +90,16 @@
     // De-Serialization; json i java ya cevirmemizdir, JsonPatch ile yapiliyor , genellikle bunu kullaniyoruz
     // Serialization; java yi json diline cevirmeye denir
 
-    /*
+
     PostMan i hangi amacla kullanirsiniz?
     Postman bir tool dur
     PostMan de endpointlere request, response gondererek test ederiz yani endpoint leri test ederiz
-     */
-    /*
+
+
     PostMan de otomasyon test yapilir mi?
     JavaScript biliyorsak evet,
     PostMan de sadece manuel test yapmiyoruz, JavaScript kullanarakta code yazarak test yapariz
-     */
+
     //assertthat soft assert mu? hard assert mu? ==> hard assert dur
 
     // API test de web driver a ihtiyac duyuyor musunuz? ==> web drive a ihtiyac yoktur.
