@@ -1,0 +1,41 @@
+
+    // Differences between Web Services and API(Differences between Web Services and API):
+    /*
+    Firstly, What is a Web Service?
+    A Web service is a collection of open protocols and standards which are widely used
+    for exchanging data between systems or applications.
+
+     What is an API ?
+     API is the acronym for Application Programming Interface. It is a software interface
+     that allows two applications to interact with each other without any user intervention.
+     */
+
+    //There are some important differences between Web services and API.
+
+    //WebServices;
+    /*
+    * All web services are APIs,
+    * Web Service makes communication between two applications via internet,
+    * It provides supports only for the HTTP protocol.
+     */
+
+    //API;
+    /*
+    * All APIs are not web services,
+    * An API doesn't need a network to work.
+    * It provides support for the HTTP/s protocol: URL Request/Response Headers, and so on.
+     */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

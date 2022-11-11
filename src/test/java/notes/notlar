@@ -1,0 +1,163 @@
+
+    // typing issue(yazim hatasi) istenenleri elle yazarken yanlis yazdigimiz yazimdan dolayi aldigimiz hatalara denir,
+    //bunu onlemak icin requiment den copy ile paste yapmak daha dogru
+
+    // spec diyince aklimiza base url imiz gelsin ==> https://jsonplaceholder.typicode.com
+    //Url e, 2 ve daha fazla parametre ekleme yaptiysak pathParams ama 1 tane parametre
+    // ekleyeceksek pathPram yazariz
+
+    // then() e kadar geldiysek artik assertion yapacagiz demek
+
+    // Hard Assert de eger code larda hata alirsak aldigimiz hatadan sonra code umuz calismayi durduracak
+    // yani code complete olmuyor sadece body icinde gecerli soft assert de ise hata alsak bile code umuz
+    // calisacak, code umuz calismayi durmayacakstatusCode da hata alirsak oarasi hard assert oldugu icin
+    // body ne kadar soft assert olsa da
+
+    // soft assert; assertion i tek bir body icin de asseret ediyorsak
+    // hard assert ise assertionlari ayri body lerde yapiyoruz
+
+    //URI : URI, internette bir kaynak üzerine işaret edilmiş resim veya belge gibi klasik formata
+    // uygun bir karakter dizisidir.
+    //URL : URL, bir kaynağın örnek konumlayıcı veya tek halde kaynak bulucu olarak tanımlanabilir.
+
+
+    // Response format istenince contentType i anliyoruz
+
+    //then() den sonra assertion  basliyor, then() e kadar her sey request
+    // then() response ve assertion kismina geciyoruz
+
+    // ? = query (sorgulama)
+
+    // getString(),getInt(),getBoolean() kullanmak istiyorsak JsonPath json = response.jsonPath(); objesi olusturmamiz
+    // gerekiyor cunku o methodu() bu objeden oluyoruz, response container ini da json container ina
+    // atiyoruz
+
+    // softAssert class 3 adimda kullanilir, 1) objeyicreate et, 2) softAssert unu yap
+    // ***3) en sonunda assertAll(); eklemeyi unutma yani butun assert leri calistir, yoksa
+    // hatali assert ler bile pass olur
+
+    //Internette aratınca post yapıyoruz cıkan sonuclar bıze get olarak gelıyor
+    // http ile https arasindaki fark https daha guvenlidir. http olan sitelere girmek istersek
+    // uyari gelir,guvenli degil diye
+    // bu bir prodokordur, s security den aklimizda kalabilir.
+
+    // status 200 -> basarili
+    // status 201 created(olusturuldu) -> post lar icin
+    // tum status 200 sucessc code
+    // status 204 -> deleted
+    // tum status 400 unsucessc code
+    // 400 ler usercilarin hatalari (404 gibi)(401 unauthorization)
+    // 500 ler server la ilgili error ler bizim yapacagimiz bi sey yok, serverin duzelmesini bekleriz
+
+    // webservice, API
+
+    //soup, rest farki sorulur
+    /*
+    soup daha yavas, rest daha hizli calisir
+    soup daha guvenlidir
+    soup prodokolunu ogrenmek rest e gore ogrenmek daha zor
+    soup sadece .....
+     */
+    /*
+    Postman, backend API lerin kullandigi bir tool dur
+    */
+
+    /*
+    Swagger Dokumani ya da API Dokumani
+
+    Q: API test inizi nasil yaparsiniz?
+    A: S.. ya da AP do. gore yaparim
+     */
+
+
+    // Sw.. api do , endpoints leri developer lar olusturur
+
+    // API da 6 tane test method lari var, sadece onlari gorucegiz ==> 2 tanesini gorduk matcher ve groovy class
+
+    // token bize authorization veriyor
+
+    // Server a header dan ulasiyoruz
+
+    //First Step:Set the Url
+    //Second Step:Set The Expected Data
+    //Third Step:Send The Request and Get The Response
+    //Fourt Step:Do Assertion
+
+    // hard coding ;
+    // Groovy, Java dan esinlenerek olusturulmus bir dildir
+
+
+    // De-Serialization; json i java ya cevirmemizdir, JsonPatch ile yapiliyor , genellikle bunu kullaniyoruz
+    // Serialization; java yi json diline cevirmeye denir
+
+    /*
+    PostMan i hangi amacla kullanirsiniz?
+    Postman bir tool dur
+    PostMan de endpointlere request, response gondererek test ederiz yani endpoint leri test ederiz
+     */
+    /*
+    PostMan de otomasyon test yapilir mi?
+    JavaScript biliyorsak evet,
+    PostMan de sadece manuel test yapmiyoruz, JavaScript kullanarakta code yazarak test yapariz
+     */
+    //assertthat soft assert mu? hard assert mu? ==> hard assert dur
+
+    // API test de web driver a ihtiyac duyuyor musunuz? ==> web drive a ihtiyac yoktur.
+    // Verification soft assertion dir
+
+    // !!! token i swagger (API dokumanindan) aliyoruz, bu dokuman olmazsa elimiz kolumuz bagli
+    // token bize o siteye girmek icin otorite veriyor, authorization. Yoksa elini kolunu sallayan giren
+    // database mahrem yerdir, eline endpoint alan o sitelere girip data silip, update edemez
+    // kontrollu giris icin
+
+    API; http prodokolunu  kullanarak yapar, get, post, put gibi
+    API getir gotur yapiyor, sirketler kendi API larina baglaniyorlar
+
+   ===> SOAP, REST farki ??
+    biz rest gorucegiz
+    SOUP                                                      REST
+    * SOAP bir protokoldür                                 * HTTP protokolünü kullanan bir mimaridir(get, post,  put, patch)
+    * WDSL ile tasarlama yapmak gerektiğinden              * HTTP methodları ile tasarlandığı için
+                                                             kullanması daha kolay
+      kullanması daha zor
+   * Yalnızca XML format kullanır.                         * XML , JSON , HTML , TXT format kullanır
+   * Önbelliği okuyamaz ( can not be cached)               * Önbelliği okur (can be cached)
+   * Rest e göre daha yavaş                                * Soap’ a göre daha hızlı
+   * Finansal,iletişim ve ödeme noktalarında               * Sosyal medya, Web Chat , Mobil uygulamalar da kullanılır
+     kullanılır
+   * Daha güvenlidir.                                      * Güvenlidir.
+
+
+   Ent point ler bize verilecek, bizde user case lere gore test yapacagiz
+   PostMan de file larin yanindaki ... basip export dersek bilgisayarimiza kaydeder
+
+   ObjectMapper() => PojoClass a gore daha gvenli ve markette en cok bu kullaniliyor,
+   bize sorduklarinda en cok kim kolay cevabi bu
+   Pojo da da encampsulation kullanacagiz
+
+   ==> Rest  Assured
+   IntteliJ de kutuphanedir
+
+   =>data gizlemek encampsulation dir
+   her java class i bir data type dir ayni zamanda
+
+*** Pojo class da map yok, map olusturmak zorunda degiliz
+
+=> markette en cok kullanilan pojo yu ObjectMapper la kullanmak
+ObjectMapper ile pojo kullanmak en iyi yontem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
