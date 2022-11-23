@@ -67,7 +67,7 @@ public class DatabaseUtility {
     public static List<Object> getRowList(String query) {
         return getQueryResultList(query).get(0);
     }
-    /**
+    /*
      *
      * @param query
      * @return returns a map which represent a row of data where key is the column
