@@ -102,7 +102,7 @@ public class DatabaseUtility {
         }
         return rowList;
     }
-    /**
+    /*
      *
      * @param query
      * @param column
