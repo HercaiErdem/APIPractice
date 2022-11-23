@@ -77,7 +77,7 @@ public class DatabaseUtility {
     public static Map<String, Object> getRowMap(String query) {
         return getQueryResultMap(query).get(0);
     }
-    /**
+    /*
      *
      * @param query
      * @return returns query result in a list of lists where outer list represents
