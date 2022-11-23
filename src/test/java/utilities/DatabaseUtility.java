@@ -43,7 +43,7 @@ public class DatabaseUtility {
             e.printStackTrace();
         }
     }
-    /**
+    /*
      *
      * @param query
      * @return returns a single cell value. If the results in multiple rows and/or
