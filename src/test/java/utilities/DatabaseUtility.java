@@ -57,7 +57,7 @@ public class DatabaseUtility {
     public static Object getSecondCellValue(String query) {
         return getQueryResultList(query).get(0).get(1);
     }
-    /**
+    /*
      *
      * @param query
      * @return returns a list of Strings which represent a row of data. If the query
