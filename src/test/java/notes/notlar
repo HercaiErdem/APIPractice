@@ -133,7 +133,7 @@
 
    ObjectMapper() => PojoClass a gore daha gvenli ve markette en cok bu kullaniliyor,
    bize sorduklarinda en cok kim kolay cevabi bu
-   Pojo da da encampsulation kullanacagiz
+   Pojo da da encapsulation kullanacagiz
 
    ==> Rest  Assured
    IntteliJ de kutuphanedir
