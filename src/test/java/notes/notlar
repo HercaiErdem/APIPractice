@@ -1,8 +1,8 @@
 
      typing issue(yazim hatasi) istenenleri elle yazarken yanlis yazdigimiz yazimdan dolayi aldigimiz hatalara denir,
-    bunu onlemak icin requiment den copy ile paste yapmak daha dogr
+     bunu onlemak icin requiment den copy ile paste yapmak daha dogr
      spec diyince aklimiza base url imiz gelsin ==> https://jsonplaceholder.typicode.com
-    Url e, 2 ve daha fazla parametre ekleme yaptiysak pathParams ama 1 tane parametre
+     Url e, 2 ve daha fazla parametre ekleme yaptiysak pathParams ama 1 tane parametre
      ekleyeceksek pathPram yazari
      then() e kadar geldiysek artik assertion yapacagiz deme
      Hard Assert de eger code larda hata alirsak aldigimiz hatadan sonra code umuz calismayi durduracak
@@ -11,16 +11,15 @@
      body ne kadar soft assert olsa d
      soft assert; assertion i tek bir body icin de asseret ediyorsak
      hard assert ise assertionlari ayri body lerde yapiyoru
-    URI : URI, internette bir kaynak üzerine işaret edilmiş resim veya belge gibi klasik formata
+     URI : URI, internette bir kaynak üzerine işaret edilmiş resim veya belge gibi klasik formata
      uygun bir karakter dizisidir.
-    URL : URL, bir kaynağın örnek konumlayıcı veya tek halde kaynak bulucu olarak tanımlanabilir
+     URL : URL, bir kaynağın örnek konumlayıcı veya tek halde kaynak bulucu olarak tanımlanabilir
      Response format istenince contentType i anliyoru
-    then() den sonra assertion  basliyor, then() e kadar her sey request
+     then() den sonra assertion  basliyor, then() e kadar her sey request
      then() response ve assertion kismina geciyoru
      ? = query (sorgulama
      getString(),getInt(),getBoolean() kullanmak istiyorsak JsonPath json = response.jsonPath(); objesi olusturmamiz
-     gerekiyor cunku o methodu() bu objeden oluyoruz, response container ini da json container ina
-     atiyoru
+     gerekiyor cunku o methodu() bu objeden oluyoruz, response container ini da json container ina atiyor
      softAssert class 3 adimda kullanilir, 1) objeyicreate et, 2) softAssert unu yap
      ***3) en sonunda assertAll(); eklemeyi unutma yani butun assert leri calistir, yoksa
      hatali assert ler bile pass olu
