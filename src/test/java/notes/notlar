@@ -16,8 +16,8 @@
      URL : URL, bir kaynağın örnek konumlayıcı veya tek halde kaynak bulucu olarak tanımlanabilir
      Response format istenince contentType i anliyoru
      then() den sonra assertion  basliyor, then() e kadar her sey request
-     then() response ve assertion kismina geciyoru
-     ? = query (sorgulama
+     then() response ve assertion kismina geciyor
+     ? = query (sorgulama)
      getString(),getInt(),getBoolean() kullanmak istiyorsak JsonPath json = response.jsonPath(); objesi olusturmamiz
      gerekiyor cunku o methodu() bu objeden oluyoruz, response container ini da json container ina atiyor
      softAssert class 3 adimda kullanilir, 1) objeyicreate et, 2) softAssert unu yap
