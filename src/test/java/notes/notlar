@@ -30,7 +30,7 @@
 
     // status 200 -> basarili
     // status 201 created(olusturuldu) -> post lar icin
-    // tum status 200 sucessc code
+    // tum status 200 sucess code
     // status 204 -> deleted
     // tum status 400 unsucessc code
     // 400 ler usercilarin hatalari (404 gibi)(401 unauthorization)
