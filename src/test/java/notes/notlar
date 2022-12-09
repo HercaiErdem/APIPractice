@@ -50,10 +50,9 @@
 
     Q: API test inizi nasil yaparsiniz?
     A: S.. ya da AP do. gore yaparim
-// gsgs
 
 
-    // Sw.. api do , endpoints leri developer lar olusturur
+    // Swagger(api dokumani) , endpoints leri developer lar olusturur
 
     // API da 6 tane test method lari var, sadece onlari gorucegiz ==> 2 tanesini gorduk matcher ve groovy class
 
