@@ -95,7 +95,7 @@
     API; http prodokolunu  kullanarak yapar, get, post, put gibi
     API getir gotur yapiyor, sirketler kendi API larina baglaniyorlar
 
-   ===> SOAP, REST farki ??
+   ===> SOAP, REST farklari
     biz rest gorucegiz
     SOUP                                                      REST
     * SOAP bir protokoldür                                 * HTTP protokolünü kullanan bir mimaridir(get, post,  put, patch)
