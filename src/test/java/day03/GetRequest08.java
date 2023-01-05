@@ -1,16 +1,12 @@
 package day03;
 
 import io.restassured.response.*;
-import org.junit.Assert;
 import org.junit.Test;
 import utilities.*;
-
-import java.util.HashMap;
-import java.util.Map;
-
+import java.util.*;
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.equalTo;
-import static org.junit.Assert.assertEquals;
+import static org.hamcrest.Matchers.*;
+import static org.junit.Assert.*;
 
 public class GetRequest08 extends GMIBankBaseURL {
 /*

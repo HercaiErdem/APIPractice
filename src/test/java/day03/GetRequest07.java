@@ -1,10 +1,9 @@
 package day03;
 
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import org.junit.Test;
-import utilities.GMIBankBaseURL;
-
+import io.restassured.path.json.*;
+import io.restassured.response.*;
+import org.junit.*;
+import utilities.*;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;

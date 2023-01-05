@@ -3,11 +3,8 @@ package utilities;
 import io.restassured.http.*;
 import io.restassured.path.json.*;
 import io.restassured.response.*;
-
 import java.util.*;
-import java.util.*;
-
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
 
 public class Authentication {
     /*
