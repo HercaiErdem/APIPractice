@@ -1,9 +1,8 @@
 package day01;
 
-import io.restassured.response.Response;
+import io.restassured.response.*;
 import org.junit.*;
-
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 public class GetRequest02 {

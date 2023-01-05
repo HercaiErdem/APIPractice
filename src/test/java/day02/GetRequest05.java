@@ -1,9 +1,8 @@
 package day02;
 
-import io.restassured.response.Response;
-import org.junit.Test;
-
-import static io.restassured.RestAssured.given;
+import io.restassured.response.*;
+import org.junit.*;
+import static io.restassured.RestAssured.*;
 
 public class GetRequest05 {
     @Test

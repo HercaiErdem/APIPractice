@@ -1,8 +1,7 @@
 package day01;
 
-import io.restassured.response.Response;
-import org.junit.Test;
-
+import io.restassured.response.*;
+import org.junit.*;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
