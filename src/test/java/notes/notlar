@@ -8,7 +8,7 @@
      Hard Assert de eger code larda hata alirsak aldigimiz hatadan sonra code umuz calismayi durduracak
      yani code complete olmuyor sadece body icinde gecerli soft assert de ise hata alsak bile code umuz
      calisacak, code umuz calismayi durmayacakstatusCode da hata alirsak oarasi hard assert oldugu icin
-     body ne kadar soft assert olsa d
+     body ne kadar soft assert olsa da
      soft assert; assertion i tek bir body icin de asseret ediyorsak
      hard assert ise assertionlari ayri body lerde yapiyordu
      URI : URI, internette bir kaynak üzerine işaret edilmiş resim veya belge gibi klasik formata
@@ -22,7 +22,7 @@
      gerekiyor cunku o methodu() bu objeden oluyoruz, response container ini da json container ina atiyor
      softAssert class 3 adimda kullanilir, 1) objeyicreate et, 2) softAssert unu yap
      ***3) en sonunda assertAll(); eklemeyi unutma yani butun assert leri calistir, yoksa
-     hatali assert ler bile pass olu
+     hatali assert ler bile pass olur
     Internette aratınca post yapıyoruz cıkan sonuclar bıze get olarak gelıyor
      http ile https arasindaki fark https daha guvenlidir. http olan sitelere girmek istersek
      uyari gelir,guvenli degil diye
