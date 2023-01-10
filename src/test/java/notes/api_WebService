@@ -19,7 +19,6 @@
 
 
     //API;
-
     * All APIs are not web services,
     * An API doesn't need a network to work.
     * It provides support for the HTTP/s protocol: URL Request/Response Headers, and so on.
