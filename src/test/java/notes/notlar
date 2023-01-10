@@ -10,7 +10,7 @@
      calisacak, code umuz calismayi durmayacakstatusCode da hata alirsak oarasi hard assert oldugu icin
      body ne kadar soft assert olsa d
      soft assert; assertion i tek bir body icin de asseret ediyorsak
-     hard assert ise assertionlari ayri body lerde yapiyoru
+     hard assert ise assertionlari ayri body lerde yapiyordu
      URI : URI, internette bir kaynak üzerine işaret edilmiş resim veya belge gibi klasik formata
      uygun bir karakter dizisidir.
      URL : URL, bir kaynağın örnek konumlayıcı veya tek halde kaynak bulucu olarak tanımlanabilir
