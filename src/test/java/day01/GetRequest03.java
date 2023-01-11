@@ -52,7 +52,7 @@ public class GetRequest03 {
         // set the url
         String url = "https://reqres.in/api/users";
 
-        //Set rthe ex data
+        //Set the ex data
         //Request data
         Response response = given().when().get(url);
         // response.prettyPrint();
