@@ -3,14 +3,17 @@ package day03;
 import io.restassured.response.*;
 import org.junit.Test;
 import utilities.*;
+
 import java.util.*;
+
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
 public class GetRequest08 extends GMIBankBaseURL {
-/*
-http://www.gmibank.com/api/tp-customers/43703
+
+       /*
+          http://www.gmibank.com/api/tp-customers/43703
           “firstName”: “Alda”,
           “lastName”: “Monahan”,
           “middleInitial”: “Nichelle Hermann Kohler”,
@@ -22,7 +25,7 @@ http://www.gmibank.com/api/tp-customers/43703
           1) MATCHERS CLASS
           2) JSON PATH
           3) De-Serialization
- */
+      */
 
     @Test
     public void get08() {
@@ -39,7 +42,7 @@ http://www.gmibank.com/api/tp-customers/43703
         expectedData.put("city", "St Louis");
         expectedData.put("ssn", "108-53-6655");
 
-       // System.out.println("expectedData = " + expectedData);
+        // System.out.println("expectedData = " + expectedData);
 
 
         // 3. Send The Request And Get The Response
@@ -62,7 +65,7 @@ http://www.gmibank.com/api/tp-customers/43703
 
         // 3) De-Serialization
         Map<String, Object> actualData = response.as(HashMap.class);
-      //  System.out.println("actualData = " + actualData);
+        //  System.out.println("actualData = " + actualData);
 
         assertEquals(expectedData.get("firstName"), actualData.get("firstName"));
         assertEquals(expectedData.get("lastName"), actualData.get("lastName"));
