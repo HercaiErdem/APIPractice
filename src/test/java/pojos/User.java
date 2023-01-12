@@ -1,6 +1,7 @@
 package pojos;
 
 public class User {
+
     /*
     “user”: {
         “id”: 110016,
