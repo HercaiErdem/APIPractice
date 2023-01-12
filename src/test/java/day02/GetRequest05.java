@@ -2,6 +2,7 @@ package day02;
 
 import io.restassured.response.*;
 import org.junit.*;
+
 import static io.restassured.RestAssured.*;
 
 public class GetRequest05 {
@@ -14,6 +15,7 @@ public class GetRequest05 {
         Response response = given().headers("Authorization", "Bearer " + token).when().get(url);
         // "Bearer " den sonra bir bosluk birak yoksa code calismaz
         response.prettyPrint();
+
         // IntelliJ de token alma
 
 
