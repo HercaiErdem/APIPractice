@@ -1,6 +1,7 @@
 package pojos;
 
 public class Account {
+
     /*
     “accounts”: [
         {
