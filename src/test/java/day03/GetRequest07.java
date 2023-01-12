@@ -4,6 +4,7 @@ import io.restassured.path.json.*;
 import io.restassured.response.*;
 import org.junit.*;
 import utilities.*;
+
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
@@ -19,7 +20,6 @@ public class GetRequest07 extends GMIBankBaseURL {
    “zipCode”: “40207"
    “"country.name”: “San Jose”
    “user.login”: “delilah.metz”
-
      */
 
     @Test
@@ -32,7 +32,7 @@ public class GetRequest07 extends GMIBankBaseURL {
         // 3. Send The Request And Get The Response
         Response response = given().spec(spec01).headers("Authorization", "Bearer " + generateToken())
                 .when().get("/{first}/{second}");
-      //  response.prettyPrint();
+        //  response.prettyPrint();
 
 
         // 4. Do Assertion
