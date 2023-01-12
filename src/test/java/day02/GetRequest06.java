@@ -12,13 +12,10 @@ public class GetRequest06 extends Authentication {
     @Test
     public void test06() {
         String url = "https://www.gmibank.com/api/tp-customers/114351";
-        Response response = given().headers("Authorization", "Bearer " + generateToken()).when()
-                .get(url);
-     //   response.prettyPrint();
+        Response response = given().headers("Authorization", "Bearer " + generateToken()).when().get(url);
 
-        // Matcher Class ile musteri bilgilerini dogrulayin
+        // Do Assert, Matcher Class ile musteri bilgilerini
         // Matcher da esit degil mi? ilk basta actual sonra expected yazilir
-        // en cok kullanilan ve tercih edilen Pojo class lardir
         response.then().assertThat().body("firstName", equalTo("Della"),
                 "lastName", equalTo("Heaney"),
                 "email", equalTo("ricardo.larkin@yahoo.com"),
