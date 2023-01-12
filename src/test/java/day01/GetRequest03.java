@@ -7,7 +7,7 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
 public class GetRequest03 {
-/* Matchers ile dataları doğrulayınız
+    /* Matchers ile dataları doğrulayınız
        // url = "https://reqres.in/api/users"
        //statusCode,
        // statusLine,
