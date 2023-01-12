@@ -2,6 +2,7 @@ package day01;
 
 import io.restassured.response.*;
 import org.junit.*;
+
 import static io.restassured.RestAssured.*;
 
 public class GetRequest01 {
@@ -30,7 +31,7 @@ public class GetRequest01 {
         System.out.println(response.contentType());
 
         // 1) JUnit Assertleri ile API Assertion yapariz
-        Assert.assertEquals("Status Code hatali",200,response.getStatusCode());
+        Assert.assertEquals("Status Code hatali", 200, response.getStatusCode());
         Assert.assertEquals("HTTP/1.1 200 OK", response.statusLine());
         Assert.assertEquals("application/json; charset=utf-8", response.getContentType());
 
@@ -46,10 +47,6 @@ public class GetRequest01 {
         //Second Step:Set The Expected Data
         //Third Step:Send The Request and Get The Response
         //Fourt Step:Do Assertion
-
-
-
-
 
 
     }
