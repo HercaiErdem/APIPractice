@@ -21,10 +21,11 @@ public class GetRequest03 {
 
     @Test
     public void get03() {
+
         // set the url
         String url = "https://reqres.in/api/users";
 
-        //Set rthe ex data
+        //Set the expected data
         //Request data
         Response response = given().when().get(url);
         // response.prettyPrint();

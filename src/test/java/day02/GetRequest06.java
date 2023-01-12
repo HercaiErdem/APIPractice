@@ -25,6 +25,7 @@ public class GetRequest06 extends Authentication {
                 "accounts[1].balance", equalTo(69700),
                 "accounts[1].accountType", equalTo("CREDIT_CARD"));
 
+
         // JsonPath ile musteri bilgilerini dogrulayin
         JsonPath json = response.jsonPath();
         // ilk basta istersek mesaj sonra expected sonra da actual data lari gireriz
