@@ -22,7 +22,6 @@ public class GetRequest02 {
                 "data[0].first_name",equalTo("George"),
                 "data[0].last_name",equalTo("Bluth"));
 
-
     }
 
 }
