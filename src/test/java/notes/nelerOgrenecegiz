@@ -55,7 +55,8 @@
 5) assertThat() Hard mı yoksa Soft Assert müdür?
    assertThat() Hard assertion'dır.
 
-   // !!! token i swagger (API dokumanindan) aliyoruz, bu dokuman olmazsa elimiz kolumuz bagli
-   // token bize o siteye girmek icin otorite veriyor, authorization. Yoksa elini kolunu sallayan giren
+    !!! token i swagger (API dokumanindan) aliyoruz, bu dokuman olmazsa elimiz kolumuz bagli
+    token bize o siteye girmek icin otorite veriyor, authorization. Yoksa elini kolunu
+    sallayan giren
 
 
