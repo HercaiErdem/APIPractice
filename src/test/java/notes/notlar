@@ -4,10 +4,10 @@
      spec diyince aklimiza base url imiz gelsin ==> https://jsonplaceholder.typicode.com
      Url e, 2 ve daha fazla parametre ekleme yaptiysak pathParams ama 1 tane parametre
      ekleyeceksek pathPram yazari
-     then() e kadar geldiysek artik assertion yapacagiz deme
+     then() e kadar geldiysek artik assertion yapacagiz demektir
      Hard Assert de eger code larda hata alirsak aldigimiz hatadan sonra code umuz calismayi durduracak
      yani code complete olmuyor sadece body icinde gecerli soft assert de ise hata alsak bile code umuz
-     calisacak, code umuz calismayi durmayacakstatusCode da hata alirsak oarasi hard assert oldugu icin
+     calisacak, code umuz calismayi durmayacak statusCode da hata alirsak orasi hard assert oldugu icin
      body ne kadar soft assert olsa da
      soft assert; assertion i tek bir body icin de asseret ediyorsak
      hard assert ise assertionlari ayri body lerde yapiyordu
