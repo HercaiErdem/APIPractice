@@ -1,6 +1,6 @@
 
      typing issue(yazim hatasi) istenenleri elle yazarken yanlis yazdigimiz yazimdan dolayi aldigimiz hatalara denir,
-     bunu onlemak icin requiment den copy ile paste yapmak daha dogr
+     bunu onlemak icin requiment den copy ile paste yapmak daha dogru olur
      spec diyince aklimiza base url imiz gelsin ==> https://jsonplaceholder.typicode.com
      Url e, 2 ve daha fazla parametre ekleme yaptiysak pathParams ama 1 tane parametre
      ekleyeceksek pathPram yazari
